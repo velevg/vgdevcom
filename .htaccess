@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Allow direct access to manifest.json
+RewriteRule ^manifest\.json$ - [L]
+
+# Exclude public/assets directory from rewrite rules
+RewriteRule ^public/assets/ - [L]
+
+# Redirect all requests to public/index.php
+RewriteRule ^$ public/ [L]
+RewriteRule ^(.*)$ public/index.php [QSA,L]

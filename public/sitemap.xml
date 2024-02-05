@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://vg-dev.com</loc>
+        <lastmod>2024-02-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+    </url>
+</urlset>
+// $smarty->setCacheDir('../cache');
+// $smarty->cache_dir = '../cache';
+// $smarty->setCompileDir('../cache');
+// $smarty->compile_dir = '../cache';
+// $smarty->caching = true;
+// $smarty->template_dir = '../app/views';
+// $smarty->left_delimiter = '{{';
+// $smarty->right_delimiter = '}}';

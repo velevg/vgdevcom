@@ -1,0 +1,37 @@
+[02-Feb-2024 11:14:54 UTC] PHP Parse error:  syntax error, unexpected identifier "print_r" in /home/vgdevcom/public_html/public/index.php on line 10
+[02-Feb-2024 11:14:55 UTC] PHP Parse error:  syntax error, unexpected identifier "print_r" in /home/vgdevcom/public_html/public/index.php on line 10
+[02-Feb-2024 11:17:48 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:17:48 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:17:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vgdevcom/public_html/app/controllers/router.php:2
+Stack trace:
+#0 /home/vgdevcom/public_html/public/index.php(7): require_once()
+#1 {main}
+  thrown in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:27 UTC] PHP Warning:  require(../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:27 UTC] PHP Warning:  require(../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vgdevcom/public_html/app/controllers/router.php:2
+Stack trace:
+#0 /home/vgdevcom/public_html/public/index.php(7): require_once()
+#1 {main}
+  thrown in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:39 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:39 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vgdevcom/public_html/app/controllers/router.php:2
+Stack trace:
+#0 /home/vgdevcom/public_html/public/index.php(7): require_once()
+#1 {main}
+  thrown in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:52 UTC] PHP Warning:  require(/vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:52 UTC] PHP Warning:  require(/vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:18:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vgdevcom/public_html/app/controllers/router.php:2
+Stack trace:
+#0 /home/vgdevcom/public_html/public/index.php(7): require_once()
+#1 {main}
+  thrown in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:19:04 UTC] PHP Warning:  require(./vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:19:04 UTC] PHP Warning:  require(./vendor/autoload.php): Failed to open stream: No such file or directory in /home/vgdevcom/public_html/app/controllers/router.php on line 2
+[02-Feb-2024 11:19:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vgdevcom/public_html/app/controllers/router.php:2
+Stack trace:
+#0 /home/vgdevcom/public_html/public/index.php(7): require_once()
+#1 {main}
+  thrown in /home/vgdevcom/public_html/app/controllers/router.php on line 2

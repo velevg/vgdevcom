@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "^4.3",
+        "altorouter/altorouter": "^2.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

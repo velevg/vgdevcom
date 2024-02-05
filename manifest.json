@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "vg-dev",
+    "version": "1.0",
+    "description": "Full stack web developer.",
+    "icons": {
+      "128": ".png"
+    },
+    "permissions": ["activeTab", "tabs"],
+    "browser_action": {
+      "default_icon": ".png",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["auth.js", "index.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "resources": [".png"]
+      }
+    ]
+}
